@@ -44,3 +44,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 </div>
 <p>Observando a conclusão dos cenários com falha, é possível concluir que o cenário "Cliente especial com saldo negativo" se dividiu em 3 cenários principais, sendo 1 com falha e 2 com resultados não definidos, contendo 9 etapas no decorrer de todo o processo, sendo 1 com falha, 5 pulados e 3 não definidos. Sendo assim, foi possivel visualizar também, via console, todos os métodos que falharam e que necessitavam de novas implementações. Além disso, códigos de erro que identificavam e facilitavam a correção de possíveis melhorias ao software, melhorando a codificação, já que possibilita uma codificação feita sob demanda, desde que não hajam novos erros.</p>
 
+<div align="center">
+  <img src="image03.png">
+</div>
+
