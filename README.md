@@ -1,4 +1,4 @@
-# Projeto Conta com Cucumber BDD
+# Projeto Conta Bancária - Cucumber BDD (Behaviour-Driven Development)
 Este projeto demonstra a implementação, passo a passo, da classe "Conta" utilizando o processo Behaviour-Driven Development (BDD) com Cucumber. O BDD é uma abordagem que se concentra na colaboração entre desenvolvedores, testadores e partes interessadas para garantir que o software atenda aos requisitos de negócios. Já o Cucumber, representa uma ferramenta de automação de testes e uma biblioteca que é amplamente utilizada durante as práticas de BDD (Behavior-Driven Development), permitindo que equipes de desenvolvimento e testes criem testes automatizados com base em especificações escritas em linguagem natural, verificando se o software, de fato, se comporta de acordo com essas especificações.
 
 ## Pré-requisitos
@@ -32,4 +32,15 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 
 ## Resultados
 
+<div align="center">
+  <img src="image01.png">  
+</div>
+<p>Após a obtenção dos resultados, foi possível observar a Feature principal, que dizia respeito sobre a diferença na questão de saque para clientes Especiais e Comuns.</p>
+<p>No cenário 1, um cliente do tipo Especial fazia a solicitação de saque e, diferentemente do cliente de tipo Comum, ele tinha acesso para realizar essa transferência, mesmo que seu saldo já estivesse negativo, contrariando o outro caso, que não poderia realizar o saque se não houvesse um saldo maior ou igual ao valor do saque.</p>
+<p>No cenário 2, um cliente do tipo Comum fazia a solicitação de saque e, diferentemente do cliente de tipo Especial, tinha sua solicitação negada, visto que já possuia um saldo na conta negativo, impossibilitando a transferência visto que seu saldo era insuficiente para que tal possibilidade se tornasse viável.</p>
+
+<div align="center">
+  <img src="image02.png">
+</div>
+<p>Observando a conclusão dos cenários com falha, é possível concluir que o cenário "Cliente especial com saldo negativo" se dividiu em 3 cenários principais, sendo 1 com falha e 2 com resultados não definidos, contendo 9 etapas no decorrer de todo o processo, sendo 1 com falha, 5 pulados e 3 não definidos. Sendo assim, foi possivel visualizar também, via console, todos os métodos que falharam e que necessitavam de novas implementações. Além disso, códigos de erro que identificavam e facilitavam a correção de possíveis melhorias ao software, melhorando a codificação, já que possibilita uma codificação feita sob demanda, desde que não hajam novos erros.</p>
 
